@@ -1,0 +1,239 @@
+
+
+/* home page */
+.navbar {
+  height: 6rem;
+  font-size: 2rem;
+  background-color: #545454;
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 7;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+
+.search-btn{
+margin-top: 5px;
+}
+
+.search-bar-text{
+margin-top:  5px;
+margin-right: 10px;
+}
+
+.home-row {
+  padding-top: 55px;
+  text-align: center;
+}
+
+.title-image {
+  width: 100%;
+  height: 1500px;
+  position: fixed;
+  bottom: 25%;
+  z-index: -2;
+
+}
+
+.title {
+  margin: 100px 0;
+  padding: 0;
+}
+
+.title-name {
+  background-color: #8c52ff;
+  margin-bottom: 130px;
+}
+
+.model {
+  width: 12rem;
+  position: absolute;
+  z-index: 3;
+  left: 130px;
+  bottom: 350px;
+}
+
+.logo {
+  width: 20rem;
+  border-radius: 100%;
+  margin: 200px 30px 150px;
+}
+
+.name {
+  color: white;
+  font-size: 8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sm-heading {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 0 4px;
+}
+/* base */
+
+.base{
+  background-color: white;
+  padding: 0;
+}
+
+/* intro */
+.intro {
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Dancing script';
+  background-color: white;
+}
+
+.intro-text {
+  font-size: 4rem;
+  margin: 3rem;
+}
+
+.intro-img-pen {
+  width: 15rem;
+  position: absolute;
+  top: 1000px;
+  right: 80px;
+  z-index: 5;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 7rem;
+}
+
+/* catagories */
+#catagories{
+  margin:4rem 1.3rem 7rem;
+}
+ .catagories-title{
+   font-family: 'Amatic SC';
+   font-size: 5rem;
+   padding: 3rem;
+   font-weight: bold;
+   color:  #545454;
+ }
+
+.btn{
+  padding: 1rem 5rem;
+  margin: 2px 20px 20px 2px;
+  border: none;
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+}
+
+/* content */
+#daily-feeds{
+  background-color:  #8c52ff;
+}
+.feeds{
+  padding: 1.5rem;
+  margin: 0;
+}
+.content-box{
+  padding: 0;
+}
+.content-img{
+  width: 100%;
+  padding: 3px;
+}
+
+.long{
+  height: 500px;
+}
+.short{
+  height: 350px;
+}
+.content-img:hover{
+  opacity: 0.5;
+}
+
+.top-head{
+  font-family: 'Amatic SC';
+  font-size: 3rem;
+  padding: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* feature */
+#feature{
+  padding: 4rem 2rem;
+}
+.file-btn{
+  padding: 1rem 30rem;
+}
+
+/* contact us */
+
+#contact{
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 1rem;
+}
+.contact-icon{
+  font-size: 3rem;
+  padding: 2rem 2rem;
+  color: #888888;
+}
+
+.copy-right{
+  font-size: 2rem;
+}
+
+
+/* media section */
+@media (max-width: 956px) {
+  .title-image {
+    height: 450px;
+    bottom: 36%;
+    z-index: -1;
+  }
+
+  .title {
+    margin: 50px 0;
+  }
+
+  .name {
+    padding: 2px;
+    font-size: 3rem;
+  }
+
+  .model {
+    width: 0;
+  }
+
+  .intro-img-pen {
+    width: 7rem;
+    right: 50px;
+  }
+
+
+  .btn{
+    padding: 2.1rem;
+  }
+
+  .feeds{
+    padding: 1rem;
+  }
+
+  .long{
+    height: 350px;
+  }
+  .short{
+    height: 250px;
+  }
+
+}
+
+@media (min-width: 956px) {
+  .carousel-text-box{
+    display: none;
+  }
+}
